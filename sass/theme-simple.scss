@@ -1,0 +1,174 @@
+//
+// Simple theme
+// @author updoor
+//
+
+
+@import url("//fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+$font-color: #333;
+$font-size: 96%;
+
+html, body {
+  color: $font-color;
+  font-family: "Inconsolata", "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-size: $font-size;
+  font-weight: 400;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+
+#globalheader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+#container {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 37px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+#container-inner {
+
+}
+
+#blog-title {
+  margin-bottom: 80px;
+
+  a {
+    color: $font-color;
+  }
+}
+
+#footer {
+  text-align: center;
+}
+
+
+.entry {
+  h3,h4,h5,h6 {
+    margin-bottom: .6em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 1.1em;
+  }
+
+  dl {
+    > dd {
+      margin-bottom: .4em;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+
+    th, td {
+      padding: 4px 8px;
+      border: 1px solid #EEE;
+    }
+  }
+
+  pre.code {
+    padding: 1em;
+    border: 1px solid #EEE;
+    border-radius: 3px;
+    background-color: #FEFEFE;
+    font-size: 95%;
+    font-family: "Inconsolata",Monaco,Consolas,Courier New,Courier,monospace,sans-serif;
+  }
+
+
+
+  .entry-header {
+    position: relative;
+
+    a {
+      color: $font-color;
+    }
+
+    .entry-date {
+      font-style: oblique;
+    }
+    .entry-title {
+      margin-top: 5px;
+      text-decoration: underline;
+    }
+    .entry-header-menu {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+  }
+
+  .entry-footer {
+    margin-bottom: 80px;
+    padding-top: 40px;
+  }
+}
+
+.archive-entries {
+  margin-bottom: 80px;
+}
+
+.archive-entry {
+  margin-bottom: 40px;
+
+  .archive-entry-header {
+    a {
+      color: $font-color;
+    }
+    h1.entry-title {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .entry-thumb-link {
+    .entry-thumb {
+      border-radius: 3px;
+      overflow: hidden;
+    }
+  }
+}
+
+
+.pager {
+  margin-bottom: 60px;
+  text-align: center;
+
+  .pager-prev {
+    margin-right: 20px;
+  }
+}
+
+#box1 {
+  clear: both;
+}
